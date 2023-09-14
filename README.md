@@ -20,7 +20,7 @@ Today we are going to create a mock-import utility that we can use in our cars a
 
 * Now that we have Redux configured for this action it's time to build out the component. Notice that there is an `Import.js` file underneath the "components" and "containers" folders. In fact, it's also already been tied into the router for you so if you navigate to "/import" you should see a line of text.
 
-* On this page you need to use `material-ui` to create a button and a table. Let's do that part first. Import Button, Table, TableHead, TableBody, TableRow and TableCell from "@material-ui/core". You may also want to import "Container" to help with styling. Remember to look at the Material UI docs if you don't understand how this works. 
+* On this page you need to use `material-ui` to create a button and a table. Let's do that part first. Import Button, Table, TableHead, TableBody, TableRow and TableCell  from "@material-ui/core". You may also want to import "Container" to help with styling. Remember to look at the Material UI docs if you don't understand how this works. 
 
 * Create a button with the text "Import". Make its variant contained and its color primary. Then create a table underneath it. The table should have three columns (Id, Make, Actions).
 
